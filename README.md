@@ -66,7 +66,7 @@ prepare_tidy_data(open.view = TRUE)
 ```
 
 ## Code Book
-The script work is described here in (Code Book)[https://github.com/riversy/tidydata-course-project/blob/master/CodeBook.md].
+The script work is described here in [Code Book](https://github.com/riversy/tidydata-course-project/blob/master/CodeBook.md).
 
 ## Download
 The latest version of this script's placed here on [GitHub](https://github.com/riversy/tidydata-course-project). 

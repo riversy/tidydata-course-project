@@ -115,17 +115,16 @@ load_and_select <- function(folder, route){
 
     # Append Subject Id 
     names(subject) <- c("subject")
-    X <- bind_cols(subject, X)
-
-    X
+    bind_cols(subject, X)
 }
 
 ###
 # Prepare Tidy Data from Raw dataset
 #
-# @param read.folder
-# @param save.path
-# @param open.view
+# @param read.folder    Folder to read raw dataset files
+# @param save.path      Filename to save tidy dataset
+# @param open.view      This flag may be used if you want to check the result in the RStudio
+#                       Tidy Data will be opened in the View() tab.
 ###
 prepare_tidy_data <- function(
     read.folder = "UCI HAR Dataset", 
